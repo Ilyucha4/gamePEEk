@@ -1,0 +1,79 @@
+*{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(206, 205, 205);
+}
+.model_two{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(52, 52, 13, 0.468);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    z-index:5;
+    animation-name:anim ;
+    animation-duration: 1s;
+    top:-0.2%
+    }
+    .gth{
+        position: absolute;
+        left: 95%;
+        bottom: 92%;
+        cursor: pointer;
+        opacity: 0.5;
+        
+        }
+        .model_one{
+
+
+            display:block;
+        }
+        .gth2{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+            opacity:0.8;
+            font-size:60px;
+            color: rgb(255, 255, 255);
+            text-shadow:0px 0px 5px rgb(0, 0, 0) ;
+        }
+        .gth3{
+            padding: 10px 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        }
+        .nav{
+            list-style-type: none;
+            display:flex;
+            width:350px ;
+            justify-content: space-evenly;
+        }
+
+        .nav_item:hover{
+            color: rgb(167, 11, 179);
+            cursor: pointer;
+            transition: 0.4s;
+        }
+        .nav_item{
+            font-size:150% ;
+            transition: 0.4s;
+
+        }
+        .imeg:hover{
+            cursor: pointer;
+            filter: invert(80%);
+            transition:0.4s;
+        }
+        .header{
+        background-color: rgb(97, 84, 84);;
+        box-shadow:0px 0px 7px black;
+        }
+        
