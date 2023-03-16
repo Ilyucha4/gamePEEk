@@ -1,0 +1,36 @@
+.j1{
+    justify-content: space-between;
+    display:flex;
+    
+    }
+    body{background-image: url("fon.png")}
+.f2{color: aliceblue;}
+.j3{
+display:flex;
+}
+.j4{
+    display:flex;
+    }
+    .j0{
+        opacity:1;
+        display:flex;
+        }
+        .j5{
+            display:flex;
+            background-color: black;
+           justify-content: end;
+           }
+           .kont2{
+            margin-right: 10px;
+        }
+        .j2203{
+            position:absolute;
+            bottom:30%;
+            max-width: 500px;
+            left: 33%;
+            text-shadow:2px 0px 4px rgb(3, 245, 15);
+        }
+    .j2202{
+        background-color: black;
+        position:relative;
+    }

@@ -76,4 +76,45 @@ body{
         background-color: rgb(97, 84, 84);;
         box-shadow:0px 0px 7px black;
         }
-        
+        .janr{
+            height: 100px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .mine{
+        height: 500px;  
+        }
+        /* .janr img:hover{
+            cursor: pointer;
+            filter: invert();
+            transition: 0.4s;
+        }  */
+        .img1{
+            background:url(жанры/головоломки.png);
+            height:100px;
+            width: 100px;
+            background-size: 85px;
+background-position: center;
+background-repeat: no-repeat;
+        }
+        .img1:hover{
+            background-size: 85px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background:url(жанры/Головоломки2.png)
+
+        }
+        .img2{
+
+        }
+        .img3{
+
+        }
+        .img4{
+
+        }
+        .img5{
+
+
+        }
