@@ -12,6 +12,11 @@
     button1.addEventListener("click", function(){
     modal_main.classList.toggle("modal_main1")
     })
+    const button2 = document.querySelector(".red2");
+button2.addEventListener("click", function(){
+modal_main.classList.toggle("modal_main1")
+})
+
     
     
   
