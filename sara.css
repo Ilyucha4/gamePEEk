@@ -241,7 +241,14 @@ body{
               z-index: 10;
               }
                 .logobeta{
-                height: 70px;
-                width: 70px;
-                position:;
+                position:absolute;
+                bottom: 10%;
+                left: -10%;
+
               } 
+              .imegblack{
+                  position:relative;
+                  bottom: 100%;
+                  left: -10%;
+                
+              }
